@@ -33,7 +33,7 @@ const Home = () => {
                 </button></Link>
                 <p className='w-80 text-[12px]'>By signing up, you agree to the <Link to="https://twitter.com/en/tos" className='font-bold text-sky-600'>Terms of services</Link> and  <Link to="https://twitter.com/en/privacy" className='font-bold text-sky-600'>Privicy Policy</Link> including  <Link to="https://help.twitter.com/en/rules-and-policies/x-cookies" className='font-bold text-sky-600'>Cookie Uses</Link></p>
                 <h4 className='mt-10 text-xl font-bold'>Already have an account?</h4>
-                <button className=' w-80 py-2 rounded-full bg-transparent text-sky-600 border-[1px] border-slate-200 font-extrabold'>Sign in</button>
+                <Link to="/login"><button className=' w-80 py-2 rounded-full bg-transparent text-sky-600 border-[1px] border-slate-200 font-extrabold'>Sign in</button></Link>
 
             </div>
             </div>
